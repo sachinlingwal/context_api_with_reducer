@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 const Rating = ({ rating, onClick, style }) => {
+  console.log(rating);
   return (
     <div>
       {[...Array(5)].map((_, i) => (
